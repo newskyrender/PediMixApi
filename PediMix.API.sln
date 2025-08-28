@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PediMix.API", "PediMix.API\PediMix.API.csproj", "{EDD48867-B90D-496E-B0FF-D45B386822BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PediMix.Domain", "PediMix.Domain\PediMix.Domain.csproj", "{5407D03C-86D5-4671-9080-1379AF66EB24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PediMix.Application", "PediMix.Application\PediMix.Application.csproj", "{5F7E7DD5-4C8A-43ED-B38A-FA192AAD07BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PediMix.Infrastructure", "PediMix.Infrastructure\PediMix.Infrastructure.csproj", "{D8ED5B4E-3B72-4F28-94B2-5FA11265112E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDD48867-B90D-496E-B0FF-D45B386822BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDD48867-B90D-496E-B0FF-D45B386822BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDD48867-B90D-496E-B0FF-D45B386822BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDD48867-B90D-496E-B0FF-D45B386822BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5407D03C-86D5-4671-9080-1379AF66EB24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5407D03C-86D5-4671-9080-1379AF66EB24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5407D03C-86D5-4671-9080-1379AF66EB24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5407D03C-86D5-4671-9080-1379AF66EB24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F7E7DD5-4C8A-43ED-B38A-FA192AAD07BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F7E7DD5-4C8A-43ED-B38A-FA192AAD07BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F7E7DD5-4C8A-43ED-B38A-FA192AAD07BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F7E7DD5-4C8A-43ED-B38A-FA192AAD07BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8ED5B4E-3B72-4F28-94B2-5FA11265112E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8ED5B4E-3B72-4F28-94B2-5FA11265112E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8ED5B4E-3B72-4F28-94B2-5FA11265112E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8ED5B4E-3B72-4F28-94B2-5FA11265112E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

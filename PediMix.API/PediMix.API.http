@@ -1,0 +1,6 @@
+@PediMix.API_HostAddress = http://localhost:5062
+
+GET {{PediMix.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
