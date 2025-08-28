@@ -29,19 +29,10 @@ builder.Services.AddScoped<ISongRequestRepository, SongRequestRepository>();
 builder.Services.AddScoped<IGenreRepository, GenreRepository>();
 
 // MediatR
-builder.Services.AddMediatR(cfg => {
-    cfg.RegisterServicesFromAssembly(typeof(CreateUserCommandHandler).Assembly);
-    cfg.RegisterServicesFromAssembly(typeof(GetUserByIdQueryHandler).Assembly);
-});
+builder.Services.AddMediatR(typeof(CreateUserCommandHandler).Assembly);
 
 // AutoMapper
-builder.Services.AddAutoMapper(cfg =>
-{
-    cfg.AddProfile<UserMappingProfile>();
-    cfg.AddProfile<ProfileMappingProfile>();
-    cfg.AddProfile<SongMappingProfile>();
-    cfg.AddProfile<EventMappingProfile>();
-});
+builder.Services.AddAutoMapper(typeof(UserMappingProfile).Assembly);
 
 // CORS
 builder.Services.AddCors(options =>
